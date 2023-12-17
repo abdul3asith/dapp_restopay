@@ -64,7 +64,7 @@ console.log(error)
         }
     };
     return (
-        <div className='flex justify-center flex-col items-center pb-10 text-black'>
+        <div className='flex justify-center flex-col items-center pb-10 text-black '>
             
             {!otpSent ? (
                 <div id='recaptcha-container'></div>

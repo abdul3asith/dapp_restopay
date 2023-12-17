@@ -20,8 +20,8 @@ const Home = () => {
   return (
       <>
       <div>
-      <div className='text-2xl text-center  text-yellow-500 bg-black px-6 py-4'>RestoPay</div>
-       <div className="flex flex-col justify-center items-center top-11 bg-black rounded-lg pt-5 pb-2 overflow-hidden text-white mt-32 mx-5"> <h1 className="text-xl text-center mt-10 mb-5"> Sign In using OTP</h1>
+      {/* <div className='text-2xl text-center  text-yellow-500 bg-black px-6 py-4'>RestoPay</div> */}
+       <div className="flex flex-col justify-center items-center rounded-b-[250px] bg-[rgb(255,97,40)]  pt-5 pb-2 overflow-hidden text-white  "> <h1 className="text-xl text-center mt-10 mb-5"> Verify Using Mobile Number</h1>
         <Login />
         </div>
         {/* <div className="">Developed by ACUBECREATIVE</div> */}

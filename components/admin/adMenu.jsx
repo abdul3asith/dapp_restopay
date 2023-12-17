@@ -22,7 +22,7 @@ const getData = async () => {
 };
 
 const AdMenu = async() => {
-  const  data   = await getData();
+  const data  = await getData();
   // console.log(data)
   
   return (

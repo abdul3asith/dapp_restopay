@@ -1,0 +1,12 @@
+[
+  {"item": "Widget A", "price": 120},
+  {"item": "Gadget B", "price": 550},
+  {"item": "Thingamajig", "price": 320},
+  {"item": "Doohickey", "price": 80},
+  {"item": "Whatchamacallit", "price": 950},
+  {"item": "Doodad", "price": 420},
+  {"item": "Contraption", "price": 670},
+  {"item": "Gizmo", "price": 180},
+  {"item": "Gizmo XL", "price": 880},
+  {"item": "Widget X", "price": 300}
+]

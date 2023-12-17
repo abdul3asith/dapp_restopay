@@ -18,7 +18,8 @@ const getData = async () => {
   }
 };
 const Biryani = async() => {
-  const  data   = await getData();
+  const  data   = await getData({"category": "biryanis"});
+  // console.log(menu)
   // console.log(data)
   return (
     <div className="mt-5 px-3">
@@ -30,7 +31,7 @@ const Biryani = async() => {
          <div className="text-[16px] text-[#424242] mt-[2px] mb-1">{d.title}</div>
          <div>  &#8377;{d.price}</div>
          <div className='flex justify-center items-center text-green-600 '>
-         {d.rating} <FaStar className='ml-1'/> <div className='ml-2 text-[#737373]'>({d.rating})</div>
+         {d.rating} <FaStar className='ml-1'/><div className='ml-2 text-[#737373]'>({d.rating})</div>
          </div>
          {/* <div className='bg-red-400 rounded-lg px-6 py-1 text-sm mt-2 text-white'>
           Add
